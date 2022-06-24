@@ -3,7 +3,7 @@ import ExperiencePart from "./ExperiencePart";
 
 function Experience() {
   return (
-    <div className="px-20 mt-10">
+    <div className="px-20 mt-10" id="experience">
       <h1 className="text-4xl font-semibold ">Experience</h1>
       <div className="max-w-screen-xl py-10">
         <ExperiencePart

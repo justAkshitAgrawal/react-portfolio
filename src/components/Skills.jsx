@@ -12,7 +12,7 @@ function Skills() {
     "Tailwind CSS": <SiTailwindcss className="w-16 h-16" />,
   };
   return (
-    <div className="px-20 mt-20 ">
+    <div className="px-20 mt-20" id="skills">
       <h1 className="text-4xl font-semibold ">Skills</h1>
       <div className="grid max-w-screen-xl grid-cols-3 py-20 gap-x-60 gap-y-10">
         {Object.keys(skills).map((skill) => {

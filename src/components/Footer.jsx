@@ -5,7 +5,7 @@ import Socials from "./Socials";
 function Footer() {
   return (
     <div>
-      <div className="flex justify-between px-20 pb-10 mt-40">
+      <div className="flex justify-between px-20 pb-10 mt-40" id="footer">
         <div className="flex flex-col max-w-screen-md space-y-10">
           <h1 className="text-5xl font-bold">Just say hi.</h1>
           <h1 className="text-3xl">
