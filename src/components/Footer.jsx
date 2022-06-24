@@ -14,7 +14,7 @@ function Footer() {
           <h1 className="text-3xl">
             I'm always open to discuss projects and talk about new things.
           </h1>
-          <div className="flex flex-col justify-between lg:flex-row">
+          <div className="flex flex-col justify-between space-y-8 lg:spae-y-0 lg:flex-row">
             <div className="flex flex-col space-y-3">
               <h1>Mail me at:</h1>
               <a href="mailto:akshitaggarwal7@gmail.com">
