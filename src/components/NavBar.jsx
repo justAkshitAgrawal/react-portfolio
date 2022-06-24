@@ -4,9 +4,9 @@ import logo from "../media/logo.png";
 
 function NavBar() {
   return (
-    <div className=" flex items-center justify-between px-20 py-10 bg-[#212121] ">
+    <div className=" flex items-center justify-center lg:justify-between px-20 py-10 bg-[#212121] ">
       <img src={logo} alt="" className="h-10 cursor-pointer" />
-      <div className="flex space-x-10 text-2xl font-light">
+      <div className="hidden space-x-10 text-2xl font-light lg:flex">
         <Link to="home" smooth={true} activeClass="cursor-pointer">
           <h1 className="cursor-pointer">Home</h1>
         </Link>

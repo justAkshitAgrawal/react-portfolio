@@ -31,7 +31,7 @@ function ContactForm() {
     });
   };
   return (
-    <div className="bg-[#F8F8F8] text-[#121212] p-4 w-[50vw]  mx-20">
+    <div className="bg-[#F8F8F8] text-[#121212] p-4 lg:w-[50vw] w-full mt-10 lg:mt-0 lg:mx-20">
       <form noValidate onSubmit={handleSubmit(onSubmit)}>
         <div className="flex flex-col space-y-5">
           <input
