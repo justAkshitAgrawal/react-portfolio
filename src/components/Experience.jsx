@@ -9,7 +9,7 @@ function Experience() {
         <ExperiencePart
           role="ReactJS Intern"
           company="Jobs Territory"
-          date="June 2022 - Present"
+          date="June 2022 - August 2022"
           description="Developing the latest user-facing features using React.js, 
           Designing a modern highly responsive web-based user interface, 
           Building reusable components and front-end libraries for future use, 
