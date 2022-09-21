@@ -10,10 +10,9 @@ function Experience() {
           role="ReactJS Intern"
           company="Jobs Territory"
           date="June 2022 - August 2022"
-          description="Developing the latest user-facing features using React.js, 
-          Designing a modern highly responsive web-based user interface, 
-          Building reusable components and front-end libraries for future use, 
-          Translating designs and wireframes into high-quality code."
+          description="Led a team of interns to develop ATS Portal 'Jobs Market' from scratch using React.JS to allow job seekers
+          to find jobs efficiently. 
+          Developed and redesigned Jobs Territory website using ReactJS."
         />
         <ExperiencePart
           role="Freelancer"

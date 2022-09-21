@@ -7,14 +7,23 @@ function Socials() {
       <a
         href="https://www.linkedin.com/in/akshit-agrawal-586365227"
         target="_blank"
+        rel="noreferrer"
       >
-        <FiLinkedin className="w-6 h-6 cursor-pointer" />
+        <FiLinkedin className="w-6 h-6 transition-all cursor-pointer hover:scale-125" />
       </a>
-      <a href="https://github.com/justAkshitAgrawal" target="_blank">
-        <FiGithub className="w-6 h-6 cursor-pointer" />
+      <a
+        href="https://github.com/justAkshitAgrawal"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <FiGithub className="w-6 h-6 transition-all cursor-pointer hover:scale-125" />
       </a>
-      <a href="https://www.instagram.com/_agrawal_akshit_/" target="_blank">
-        <FiInstagram className="w-6 h-6 cursor-pointer" />
+      <a
+        href="https://www.instagram.com/_agrawal_akshit_/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <FiInstagram className="w-6 h-6 transition-all cursor-pointer hover:scale-125" />
       </a>
     </div>
   );
