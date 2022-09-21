@@ -2,10 +2,11 @@ import React from "react";
 import photo from "../media/aa.png";
 import Socials from "./Socials";
 import { motion } from "framer-motion";
+import "./animate.css";
 
 function Hero() {
   return (
-    <div className="flex flex-col pb-10 space-y-14 lg:space-y-64">
+    <div className="flex flex-col pb-10 space-y-14 lg:space-y-64 scrollbar-hide">
       <div className="flex flex-col items-center justify-between px-20 mt-6 font-light lg:mt-40 lg:flex-row">
         <div className="flex flex-col order-2 space-y-4 lg:order-1 ">
           <motion.div
@@ -35,9 +36,13 @@ function Hero() {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 1.2 }}
-          className="order-1 lg:order-2"
+          className="order-1 lg:order-2 "
         >
-          <img src={photo} alt="" className="lg:h-[40vh] rounded-md" />
+          <img
+            src={photo}
+            alt=""
+            className="lg:h-[40vh] rounded-md shadow-xl drop-shadow-xl cursor-pointer hover:scale-110 transition-all"
+          />
         </motion.div>
       </div>
       <div className="flex items-center justify-center px-20 lg:justify-between">

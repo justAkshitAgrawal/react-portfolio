@@ -8,7 +8,9 @@ function NavBar() {
       <img src={logo} alt="" className="h-10 cursor-pointer" />
       <div className="hidden space-x-10 text-2xl font-light lg:flex">
         <Link to="home" smooth={true} activeClass="cursor-pointer">
-          <h1 className="cursor-pointer">Home</h1>
+          <h1 className="transition-all cursor-pointer hover:scale-110">
+            Home
+          </h1>
         </Link>
         <Link
           to="skills"
@@ -16,7 +18,9 @@ function NavBar() {
           activeClass="cursor-pointer"
           offset={-20}
         >
-          <h1 className="cursor-pointer">Skills</h1>
+          <h1 className="transition-all cursor-pointer hover:scale-110">
+            Skills
+          </h1>
         </Link>
         <Link
           to="experience"
@@ -24,10 +28,14 @@ function NavBar() {
           activeClass="cursor-pointer"
           offset={-20}
         >
-          <h1 className="cursor-pointer">Experience</h1>
+          <h1 className="transition-all cursor-pointer hover:scale-110">
+            Experience
+          </h1>
         </Link>
         <Link to="footer" smooth={true} activeClass="cursor-pointer">
-          <h1 className="cursor-pointer">Contact</h1>
+          <h1 className="transition-all cursor-pointer hover:scale-110">
+            Contact
+          </h1>
         </Link>
       </div>
     </div>

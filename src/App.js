@@ -7,7 +7,7 @@ import Skills from "./components/Skills";
 
 function App() {
   return (
-    <div className="bg-[#212121] font-rubik  text-[#F8F8F8] scroll-smooth	">
+    <div className="bg-[#212121] font-rubik  text-[#F8F8F8] scroll-smooth scrollbar-hide">
       <NavBar />
       <Hero />
       <Skills />
