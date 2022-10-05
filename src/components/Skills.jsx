@@ -1,15 +1,23 @@
 import React from "react";
-import { FaCss3Alt, FaHtml5, FaJsSquare, FaReact } from "react-icons/fa";
+import {
+  FaCss3Alt,
+  FaHtml5,
+  FaJava,
+  FaJsSquare,
+  FaReact,
+} from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 import Skill from "./Skill";
+import { AiOutlineArrowRight } from "react-icons/ai";
 
 function Skills() {
   const skills = {
-    "HTML 5": <FaHtml5 className="w-16 h-16" />,
-    "CSS 3": <FaCss3Alt className="w-16 h-16" />,
     JavaScript: <FaJsSquare className="w-16 h-16" />,
     ReactJS: <FaReact className="w-16 h-16" />,
-    "Tailwind CSS": <SiTailwindcss className="w-16 h-16" />,
+    Java: <FaJava className="w-16 h-16" />,
+    TailwindCSS: <SiTailwindcss className="w-16 h-16" />,
+    HTML5: <FaHtml5 className="w-16 h-16" />,
+    CSS3: <FaCss3Alt className="w-16 h-16" />,
   };
   return (
     <div className="px-20 mt-20" id="skills">
@@ -18,6 +26,15 @@ function Skills() {
         {Object.keys(skills).map((skill) => {
           return <Skill skill={skill} icon={skills[skill]} />;
         })}
+        <a
+          href="https://www.hackerrank.com/certificates/c2913db6b3cb"
+          target="_blank"
+          rel="noreferrer"
+          className="flex items-center text-lg text-gray-100/50 "
+        >
+          View Certifications
+          <AiOutlineArrowRight className="ml-1" />
+        </a>
       </div>
     </div>
   );

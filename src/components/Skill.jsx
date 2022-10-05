@@ -8,7 +8,7 @@ function Skill({ skill, icon }) {
       whileInView={{ opacity: 1 }}
       viewport={{ once: true }}
       transition={{ duration: 1.2 }}
-      className="flex items-center space-x-5"
+      className="flex items-center space-x-5 transition-all cursor-pointer hover:scale-110"
     >
       {icon}
       <h1 className="text-3xl font-light">{skill}</h1>
