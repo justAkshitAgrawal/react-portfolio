@@ -10,7 +10,7 @@ function Experience() {
           role="ReactJS Intern"
           company="Jobs Territory"
           date="June 2022 - August 2022"
-          description="Led a team of interns to develop ATS Portal 'Jobs Market' from scratch using React.JS to allow job seekers
+          description="Led a team of interns to develop ATS Portal and a Job Search Market from scratch using ReactJS to allow job seekers
           to find jobs efficiently. 
           Developed and redesigned Jobs Territory website using ReactJS."
         />

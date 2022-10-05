@@ -1,5 +1,6 @@
 import React from "react";
 import { FiGithub, FiLinkedin, FiInstagram } from "react-icons/fi";
+import { SiHackerrank } from "react-icons/si";
 
 function Socials() {
   return (
@@ -17,6 +18,13 @@ function Socials() {
         rel="noreferrer"
       >
         <FiGithub className="w-6 h-6 transition-all cursor-pointer hover:scale-125" />
+      </a>
+      <a
+        href="https://www.hackerrank.com/akshitaggarwal7"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <SiHackerrank className="w-6 h-6 transition-all cursor-pointer hover:scale-125" />
       </a>
       <a
         href="https://www.instagram.com/_agrawal_akshit_/"
