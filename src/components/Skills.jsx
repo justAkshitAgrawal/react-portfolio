@@ -30,7 +30,7 @@ function Skills() {
           href="https://www.hackerrank.com/certificates/c2913db6b3cb"
           target="_blank"
           rel="noreferrer"
-          className="flex items-center text-lg text-gray-100/50 "
+          className="flex items-center text-lg transition-all text-gray-100/50 hover:text-gray-100/75 "
         >
           View Certifications
           <AiOutlineArrowRight className="ml-1" />
