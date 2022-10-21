@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 function ExperiencePart({ role, company, date, description }) {
   return (
     <div>
-      <div className="flex flex-col space-y-3">
+      <div className="flex flex-col space-y-3 transition-all cursor-pointer hover:scale-[1.02] hover:drop-shadow-xl">
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
