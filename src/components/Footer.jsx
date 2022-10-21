@@ -1,10 +1,16 @@
 import React from "react";
+import { motion } from "framer-motion";
 import ContactForm from "./ContactForm";
 import Socials from "./Socials";
 
 function Footer() {
   return (
-    <div>
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.5 }}
+    >
       <div
         className="flex flex-col px-20 pb-10 mt-20 lg:mt-40 lg:justify-between lg:flex-row"
         id="footer"
@@ -32,7 +38,7 @@ function Footer() {
       <h1 className="pt-10 pb-10 text-xl font-light text-center lg:pt-20">
         Copyright © 2022, All rights reserved
       </h1>
-    </div>
+    </motion.div>
   );
 }
 

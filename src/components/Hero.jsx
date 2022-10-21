@@ -13,7 +13,7 @@ function Hero() {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
-            transition={{ duration: 1.2 }}
+            transition={{ duration: 1.5 }}
           >
             <h1 className="mt-5 text-5xl tracking-wide lg:mt-0 lg:text-7xl">
               <span className="font-light ">I'm </span>
@@ -35,7 +35,7 @@ function Hero() {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
-          transition={{ duration: 1.2 }}
+          transition={{ duration: 1.5 }}
           className="order-1 lg:order-2 "
         >
           <img

@@ -9,7 +9,7 @@ function ExperiencePart({ role, company, date, description }) {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.9 }}
+          transition={{ duration: 0.5 }}
         >
           <h1 className="text-2xl">
             {role} - {company} ({date})
@@ -19,7 +19,7 @@ function ExperiencePart({ role, company, date, description }) {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
-          transition={{ duration: 1.2 }}
+          transition={{ duration: 1 }}
         >
           <h1 className="text-[#F8F8F8]/80">{description}</h1>
         </motion.div>

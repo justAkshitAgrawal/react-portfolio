@@ -22,7 +22,7 @@ function Skills() {
   return (
     <div className="px-20 mt-20" id="skills">
       <h1 className="text-4xl font-semibold ">Skills</h1>
-      <div className="grid max-w-screen-xl py-20 lg:grid-cols-3 gap-x-60 gap-y-10">
+      <div className="grid max-w-screen-xl pb-20 pt-14 lg:grid-cols-3 gap-x-60 gap-y-10">
         {Object.keys(skills).map((skill) => {
           return <Skill skill={skill} icon={skills[skill]} />;
         })}

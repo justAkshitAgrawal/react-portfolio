@@ -5,7 +5,7 @@ function Experience() {
   return (
     <div className="px-20 mt-10" id="experience">
       <h1 className="text-4xl font-semibold ">Experience</h1>
-      <div className="max-w-screen-xl py-10">
+      <div className="max-w-screen-xl py-10 pt-16">
         <ExperiencePart
           role="ReactJS Intern"
           company="Jobs Territory"
