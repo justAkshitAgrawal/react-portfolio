@@ -14,12 +14,6 @@ function Experience() {
           to find jobs efficiently. 
           Developed and redesigned Jobs Territory website using ReactJS."
         />
-        <ExperiencePart
-          role="Freelancer"
-          company="Front-end"
-          date="June 2020 - Present"
-          description="Working as a freelance front-end developer since June 2020. Have finished several projects developing new user-facing features, determining the structure and design of web pages, building reusable codes, optimizing page loading times, and using a variety of markup languages to create the web pages."
-        />
       </div>
     </div>
   );
