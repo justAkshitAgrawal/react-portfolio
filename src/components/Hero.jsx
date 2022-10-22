@@ -17,7 +17,7 @@ function Hero() {
           >
             <h1 className="mt-5 text-5xl tracking-wide lg:mt-0 lg:text-7xl">
               <span className="font-light ">I'm </span>
-              <span className="font-semibold ">Akshit Agrawal</span>
+              <span className="font-semibold">Akshit Agrawal</span>
             </h1>
           </motion.div>
           <motion.div
