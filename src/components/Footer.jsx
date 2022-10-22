@@ -23,8 +23,10 @@ function Footer() {
           <div className="flex flex-col justify-between space-y-8 lg:space-y-0 lg:flex-row">
             <div className="flex flex-col space-y-3">
               <h1>Mail me at:</h1>
-              <a href="mailto:akshitaggarwal7@gmail.com">
-                <h1>akshitaggarwal7@gmail.com</h1>
+              <a href="mailto:me@akshitagrawal.dev">
+                <h1 className="hidden text-lg lg:inline-block hover:underline hover:decoration-wavy hover:underline-offset-[5px]">
+                  me@akshitagrawal.dev
+                </h1>
               </a>
             </div>
             <div className="flex flex-col space-y-3">

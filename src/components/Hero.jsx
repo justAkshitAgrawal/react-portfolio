@@ -47,9 +47,9 @@ function Hero() {
       </div>
       <div className="flex items-center justify-center px-20 lg:justify-between">
         <Socials />
-        <a href="mailto:akshitaggarwal7@gmail.com">
-          <h1 className="hidden text-lg lg:inline-block">
-            akshitaggarwal7@gmail.com
+        <a href="mailto:me@akshitagrawal.dev">
+          <h1 className="hidden text-lg lg:inline-block hover:underline hover:decoration-wavy hover:underline-offset-[5px]">
+            me@akshitagrawal.dev
           </h1>
         </a>
       </div>
