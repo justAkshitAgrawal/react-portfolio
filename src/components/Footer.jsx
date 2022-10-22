@@ -24,7 +24,7 @@ function Footer() {
             <div className="flex flex-col space-y-3">
               <h1>Mail me at:</h1>
               <a href="mailto:me@akshitagrawal.dev">
-                <h1 className="hidden text-lg lg:inline-block hover:underline hover:decoration-wavy hover:underline-offset-[5px]">
+                <h1 className=" text-lg hover:underline hover:decoration-wavy hover:underline-offset-[5px]">
                   me@akshitagrawal.dev
                 </h1>
               </a>
