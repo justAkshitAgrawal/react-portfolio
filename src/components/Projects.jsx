@@ -8,7 +8,7 @@ function Projects() {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       viewport={{ once: true }}
-      transition={{ duration: 0.5 }}
+      transition={{ duration: 1 }}
       className="px-20 mt-20"
       id="projects"
     >
@@ -25,6 +25,12 @@ function Projects() {
           title="Netflix Clone"
           desc="A Netflix clone built using ReactJS."
           link="https://netflix-clone-mu-lyart.vercel.app/"
+        />
+        <Project
+          img="https://i.ibb.co/pxHNRSd/image.png"
+          title="Chat App"
+          desc="A chat app built using ReactJS. (Only for Desktop)"
+          link="https://todoist-woad.vercel.app/"
         />
         <Project
           img="https://i.ibb.co/nfwNGXy/image.png"

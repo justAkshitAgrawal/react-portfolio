@@ -5,7 +5,11 @@ import logo from "../media/logo.png";
 function NavBar() {
   return (
     <div className=" flex items-center justify-center lg:justify-between px-20 py-10 bg-[#212121] scrollbar-hide">
-      <img src={logo} alt="" className="h-10 cursor-pointer" />
+      <img
+        src={logo}
+        alt=""
+        className="h-10 transition-all cursor-pointer hover:drop-shadow-xl"
+      />
       <div className="hidden space-x-10 text-2xl font-light lg:flex">
         <Link to="home" smooth={true} activeClass="cursor-pointer">
           <h1 className="transition-all cursor-pointer hover:scale-110">
