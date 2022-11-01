@@ -6,19 +6,22 @@ import {
   FaJsSquare,
   FaReact,
 } from "react-icons/fa";
+
 import { SiChakraui, SiTailwindcss } from "react-icons/si";
 import Skill from "./Skill";
 import { AiOutlineArrowRight } from "react-icons/ai";
+import { TbBrandReactNative } from "react-icons/tb";
 
 function Skills() {
   const skills = {
     JavaScript: <FaJsSquare className="w-16 h-16" />,
     ReactJS: <FaReact className="w-16 h-16" />,
     Java: <FaJava className="w-16 h-16" />,
-    TailwindCSS: <SiTailwindcss className="w-16 h-16" />,
+    "React Native": <TbBrandReactNative className="w-16 h-16" />,
+    Tailwind: <SiTailwindcss className="w-16 h-16" />,
     HTML5: <FaHtml5 className="w-16 h-16" />,
     CSS3: <FaCss3Alt className="w-16 h-16" />,
-    ChakraUI: <SiChakraui className="w-16 h-16" />,
+    "Chakra UI": <SiChakraui className="w-16 h-16" />,
   };
   return (
     <div className="px-20 mt-20" id="skills">

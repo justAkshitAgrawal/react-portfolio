@@ -10,8 +10,8 @@ function Skill({ skill, icon }) {
       transition={{ duration: 0.5 }}
       className="flex items-center space-x-5 transition-all cursor-pointer hover:scale-110"
     >
-      {icon}
-      <h1 className="text-3xl font-light">{skill}</h1>
+      <div>{icon}</div>
+      <h1 className="text-3xl font-light place-self-center">{skill}</h1>
     </motion.div>
   );
 }
