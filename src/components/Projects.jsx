@@ -17,26 +17,30 @@ function Projects() {
         <Project
           img="https://i.ibb.co/pjCz09w/image.png"
           title="React Portfolio"
-          desc="A portfolio website built using ReactJS and TailwindCSS."
-          link="https://akshitagrawal.dev"
+          desc="A portfolio website built using ReactJS."
+          linkProject="https://akshitagrawal.dev"
+          linkGithub="https://github.com/justAkshitAgrawal/react-portfolio"
         />
         <Project
           img="https://i.ibb.co/Ykn9KtQ/image.png"
           title="Netflix Clone"
           desc="A Netflix clone built using ReactJS."
-          link="https://netflix-clone-mu-lyart.vercel.app/"
+          linkProject="https://netflix-clone-mu-lyart.vercel.app/"
+          linkGithub="https://github.com/justAkshitAgrawal/netflix-clone"
         />
         <Project
           img="https://i.ibb.co/pxHNRSd/image.png"
           title="Chat App"
           desc="A chat app built using ReactJS. (Only for Desktop)"
-          link="https://todoist-woad.vercel.app/"
+          linkProject="http://chat-app-pearl-psi.vercel.app/"
+          linkGithub="https://github.com/justAkshitAgrawal/chat-app"
         />
         <Project
           img="https://i.ibb.co/nfwNGXy/image.png"
           title="Todo App"
           desc="A basic todo app built using ReactJS."
-          link="https://todoist-woad.vercel.app/"
+          linkProject="http://todoist-woad.vercel.app/"
+          linkGithub="https://github.com/justAkshitAgrawal/todo-app"
         />
       </div>
     </motion.div>

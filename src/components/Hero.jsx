@@ -28,7 +28,7 @@ function Hero() {
             transition={{ duration: 2.5 }}
           >
             <h1 className="text-3xl tracking-wide lg:text-4xl">
-              Front-end Developer, Freelancer
+              Front-end Developer
             </h1>
           </motion.div>
         </div>

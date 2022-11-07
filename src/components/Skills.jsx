@@ -15,7 +15,7 @@ import { TbBrandReactNative } from "react-icons/tb";
 function Skills() {
   const skills = {
     JavaScript: <FaJsSquare className="w-16 h-16" />,
-    ReactJS: <FaReact className="w-16 h-16" />,
+    React: <FaReact className="w-16 h-16" />,
     Java: <FaJava className="w-16 h-16" />,
     "React Native": <TbBrandReactNative className="w-16 h-16" />,
     Tailwind: <SiTailwindcss className="w-16 h-16" />,
